@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<style>
+    body {
+        {# background-image: url("/static/img/1223948.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center 700; #}
+
+        overflow: hidden;
+        background: url('/static/img/1223948.png') no-repeat top center;
+        background-size: cover;
+    }
+
+    .welcome-box {
+        background-color: rgba(135, 206, 250, 0.5);
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+</style>
+
+<div class="welcome-box">
+    <h1>Welcome to CC11 Group_7</h1>
+    <p>Group Member:</p>
+    <ul>
+        <li>Zhongxu(Alex) Wang</li>
+        <li>Freya Liu</li>
+    </ul>
+</div>
+{% endblock %}
